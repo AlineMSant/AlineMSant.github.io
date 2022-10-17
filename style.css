@@ -11,7 +11,7 @@ h1 {
 
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: orangered;
     text-align: center;
     
 
@@ -26,7 +26,7 @@ h3 {
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aliceblue;
+    color: black;
     font-size: large;
     text-align: center;
     
@@ -41,7 +41,7 @@ p{
 
 #menu ul li {
     display: inline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #menu ul li a{
@@ -57,7 +57,7 @@ p{
 
 #list-skills ul {
     margin: 0;
-    background-color: black;
+    background-color: whitesmoke;
     list-style: none;
     text-align: center;
 }
@@ -65,9 +65,34 @@ p{
 #list-skills ul li{
     display: inline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: chocolate;
+    color: black;
     padding: 10px 50px;
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
+}
+
+.pag-one {
+    border: 1px solid orangered;
+    padding: 50px 5px;
+    margin: 30px 200px;
+}
+
+.pag-about {
+    padding: 200px 500px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+    height: 250px;
+}
+
+.pag-skills {
+    padding: 50px 50px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+
+
 }
