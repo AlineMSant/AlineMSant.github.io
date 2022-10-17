@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    
+
+}
+
+#foto {
+    border-radius: 50px;
+    border: 20px inset orangered;
+    margin: auto;
+    display: block;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    
+}
+
+#menu ul {
+    margin: 0;
+    background-color: black;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu ul li a{
+    padding: 10px 50px;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color: orange;
+}
+
+#lista-habilidades ul {
+    margin: 0;
+    background-color: black;
+    list-style: none;
+    text-align: center;
+}
+
+#lista-habilidades ul li{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chocolate;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
