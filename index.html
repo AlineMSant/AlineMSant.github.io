@@ -4,39 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Portfolio</title>
 </head>
+
+<style>
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    
+
+}
+
+#foto {
+    border-radius: 50px;
+    border: 20px inset orangered;
+    margin: auto;
+    display: block;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    
+}
+
+#menu ul {
+    margin: 0;
+    background-color: black;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu ul li a{
+    padding: 10px 50px;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color: orange;
+}
+
+#lista-habilidades ul {
+    margin: 0;
+    background-color: black;
+    list-style: none;
+    text-align: center;
+}
+
+#lista-habilidades ul li{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chocolate;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+</style>
+
+
+
+
+
+
 <body>
-    <h1>Aline Moura Santos</h1>
-    <br>
-    <img id="foto"src="MinhaFoto.jpg" alt="Foto atual de Aline Moura Santos" width="300px">
-    <br>
-    <h3 id="sobre">Sobre</h3>
-    <p>Atualmente em transição para a área de tecnologia em desenvolvimento web , atuei por 8 anos na área comercial nos segmentos varejista e industrial, obtendo experiências que resultaram no maior entendimento do processo de vendas, desde a negociação até o fechamento. <br>
-    <em>São Paulo/SP</p>
-    <br>
-    <h3 id="habilidades">Habilidades</h3>
+<div id="menu">
     <ul>
-        <li><strong>Comunicação</strong></li>
-        <li>Pensamento crítico</li>
-        <li><strong>Aprendizado contínuo</strong></li>
-        <li>Comprometimento</li>
-        <li><strong>Colaboração e trabalho em equipe</strong></li>
+        <li><a href="#foto">HOME</a></li>
+        <li><a href="#sobre">ABOUT</a></li>
+        <li><a href="#habilidades">SKILLS</a></li>
+        <li><a href="https://www.youtube.com/c/canal90/videos" target="_blank">FAVORITE CHANNEL</a></li>
     </ul>
+</div>
+<br><br>
+
+    <img id="foto"src="MinhaFoto.jpg" alt="Foto atual de Aline Moura Santos" width="400px">
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a href="https://www.youtube.com/c/canal90/videos" target="_blank">Canal preferido</a>
-    <br>
-    <a href="#foto">Foto de Perfil</a><br>
-    <a href="#sobre">Sobre</a><br>
-    <a href="#habilidades">Habilidades</a>
+
+    
+    <h1>ALINE MOURA SANTOS</h1>
+    <br><br><br><br><br><br>
+
+
+    <h3 id="sobre">ABOUT</h3>
+    <p>Atualmente em transição para a área de tecnologia em desenvolvimento web , atuei por 8 anos na área comercial nos segmentos varejista e industrial, obtendo experiências que resultaram no maior entendimento do processo de vendas, desde a negociação até o fechamento. <br><br>
+    <em>São Paulo/SP</p>
+    <br><br><br><br><br>
+
+
+    <h3 id="habilidades">SKILLS</h3>
+    <div id="lista-habilidades">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+   
+    
 </body>
 </html>
