@@ -19,7 +19,7 @@ h3 {
 
 #picture {
     border-radius: 50px;
-    border: 20px inset orangered;
+    border: 10px inset orangered;
     margin: auto;
     display: block;
 }
@@ -70,4 +70,10 @@ p{
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
+}
+
+.pag-one {
+    border: 1px solid orangered;
+    padding: 50px 5px;
+    margin: 10px 200px;
 }
